@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Big Dog</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+		<script type="text/javascript" src="../Angular/script.js"></script>
+	</head>
+	<body ng-app="haven" ng-controller="superHaven">
+
+		<header ng-include="'header.html'"></header>
+
+		<div id="pic" align="left">
+			<img ng-mouseover="switchImage()" ng-mouseout="restoreImage()" src="{{bigDog}}" height=300 width=300 alt="Big Dog" id="photo1">
+		</div>
+
+		<div id="local" align="left">
+			<b>Name</b>: Big Dog<br>
+			<b>Age</b>: 47<br>
+			<b>Sex</b>: Male<br>
+			<b>Status</b>: Father<br>
+			<b>Height</b>: 6'3"<br>
+			<b>SH</b>: 1<br>
+			<b>Home</b>: Toughtown, Planet Earth
+		</div>
+
+		<div id="bio" align="left">
+			Big Dog is the original Haven Fighter. He was the protector of earth. He was blessed with special powers most likely passed down from his father and his fathers. Nonetheless he protected the earth, but then came times of peace. Here he fell in love with a woman. Her name is Mom, and they had four children. The first children born were twins. T-Mac and T-Boom, then was Mighty-One and last was Snookie. He trained each and everyone of his children to protect the world. And each of his children became stronger than he. Big Dog can perform the Kamehameha wave, the Big Bang Attack, and Fly.
+		</div>
+
+				</div>
+	</body>
+</html>

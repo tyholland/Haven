@@ -1,0 +1,28 @@
+<?php
+    ob_start();
+    include("header.php");
+    $output = ob_get_contents();
+    ob_end_clean();
+    $title = "The Final Blow";
+
+    $output = str_replace('%title%', $title, $output);
+    echo $output;
+?>
+
+<div id="main" align="left">
+
+Back in the woods where Big Dog and T-Mac fight Spike. Fighting a losing battle, can Big Dog and T-Mac hold on. Big Dog, with some strength regained, gets back up and launches a kamehameha blast right at Spike. Once again Spike deflects the blast and says, "Your blast is too weak, you need more power," says Spike. "I'll show you power," replies T-Mac as he throws a destructo disk right at Spike. Spike jumps up over the destructo disk and says, "Too easy." T-Mac gets angry and rushes in only to be sent back to the ground. "Hahahaha, there is no way for you guys to win," says Spike. "Hey man, believe what you want, but we're going to win," says T-Mac. T-Mac attacks again, just punching Spike over and over. Spike takes every punch and looks at T-Mac as too say your just not strong enough. Now Spike starts his series of punches which all connect on T-Mac. Leaving him in a beaten up state, laying on the ground. Big Dog attacks, evading Spike from T-Mac. Spike quickly puts Big Dog down, paying him no respect because of his hatred for him. Spike kicked Big Dog over to T-Mac. T-Mac caught Big Dog and helped him up. "Here try on one of my blasts," says Spike as he throws a massive blast at Big Dog and T-Mac. T-Mac holds out his hands to block the blast. He catches it but it was too much for him to handle. He is little by little being pushed backwards. T-Mac lifts his hands up releasing the blast to the sky. Then he drops to his knees breathing in a heavy manner. "Is that all you guys have, I haven't even broke a sweat yet," says Spike. "I'm sick of hearing your voice," says Big Dog. "Well allow me to end this quickly then," says Spike. As Spike says that, he gets into a stance that will allow him to generate his most powerful blast. Then Spike says, "Death Ball Attack" and a ki ball forms in between his hands getting bigger and bigger.
+
+</div>
+
+
+
+<div id="next">
+
+<a href="ss4-1.php">Next</a>
+
+</div>
+
+<?php
+    include("footer.php");
+?>
